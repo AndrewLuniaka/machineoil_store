@@ -1,0 +1,29 @@
+@import "../colors";
+
+$logo-path: "../logo.svg";
+$logo-width: 600px;
+$logo-height: 156px;
+
+.Header {
+  background-color: $main-color;
+}
+
+.logo {
+  display: inline-block;
+
+  width: $logo-width;
+  height: $logo-height;
+
+  background: url($logo-path) no-repeat center bottom;
+  background-size: contain;
+}
+
+a.logo, a.logo:hover, a.logo:link {
+  line-height: 0;
+  font-size: 0;
+  text-decoration: none;
+}
+
+a.menu-item {
+  font-size: 1.2rem;
+}

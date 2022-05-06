@@ -1,0 +1,15 @@
+@import "../colors";
+
+$card-width: 100%;
+$card-height: 20vw;
+
+
+.oil-card {
+  width: $card-width;
+  height: $card-height;
+  object-fit: contain;
+}
+
+.oil-card-body {
+  background-color: $main-color;;
+}

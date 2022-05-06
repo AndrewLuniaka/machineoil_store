@@ -1,0 +1,9 @@
+@import "../colors";
+
+.Footer {
+  background-color: $main-color;
+}
+
+.border-top {
+  border-color: $divider-color !important;
+}
